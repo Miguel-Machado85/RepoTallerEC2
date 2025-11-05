@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e  # para detenerse si hay errores
 
-sudo yum update -y
+sudo apt update -y
 
-sudo yum install -y git python3
+sudo apt install -y git python3
 
 cd /home/ubuntu
 if [ ! -d "tallerEC2" ]; then
